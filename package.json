@@ -6,7 +6,7 @@
   "packageManager": "pnpm@9.15.9",
   "scripts": {
   "dev": "vite dev",
-  "build": "vite build --preset netlify-edge", 
+  "build": "vinxi build", 
   "build:dev": "vite build --mode development",
   "preview": "vite preview",
   "lint": "eslint .",
