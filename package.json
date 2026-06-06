@@ -3,6 +3,7 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
+  "packageManager": "pnpm@9.15.9",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build --preset vercel",
@@ -85,5 +86,10 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.56.1",
     "vite": "^7.3.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "nitro": "3.0.260429-beta"
+    }
   }
 }
